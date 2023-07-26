@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: flex-start;
+  max-width: 1440px;
+  height: 62px;
+  margin-bottom: 191px;
+}
+
+.logo {
+  width: 170px;
+  height: 48px;
+  margin-top: 7px;
+}

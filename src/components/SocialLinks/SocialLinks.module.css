@@ -1,0 +1,23 @@
+.container {
+  writing-mode: vertical-rl;
+  display: flex;
+  transform: rotate(-180deg);
+  gap: 65px;
+  margin-bottom: 129px;
+}
+
+.link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none; /* добавьте отступ между ссылками, если нужно */
+  color: #80858f;
+  font-family: Orbitron;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.link:hover {
+  color: white;
+}

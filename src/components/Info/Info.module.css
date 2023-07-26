@@ -1,0 +1,110 @@
+.info {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 250px;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  max-width: 1440px;
+  background: linear-gradient(to right, #000000 804px, #57b8ff 50%);
+}
+
+.group_promo {
+  display: flex;
+  padding-left: 16px;
+}
+.promo {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.text {
+  margin: 0px;
+  margin-left: 7px;
+  margin-top: 7px;
+  color: #57b8ff;
+  font-family: Orbitron;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.info_group {
+  display: flex;
+}
+
+.info_title {
+  margin: 0px;
+
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 86px; /* 119.444% */
+  text-transform: capitalize;
+  max-width: 656px;
+}
+
+.info_subtitle {
+  margin: 0px;
+  margin-top: 47px;
+  color: #999;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 623px;
+}
+
+.group_buttons {
+  display: flex;
+}
+
+.button_explorer {
+  width: 203px;
+  cursor: pointer;
+  margin-top: 51px;
+  height: 70px;
+  background-color: #57b8ff;
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  text-transform: capitalize;
+}
+
+.button_view {
+  width: 203px;
+  margin-top: 51px;
+  margin-left: 8px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.img_solders {
+  height: 518px;
+  width: 660px;
+  margin-top: 22px;
+  opacity: 10px;
+}

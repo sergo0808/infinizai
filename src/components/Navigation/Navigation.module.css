@@ -1,0 +1,31 @@
+.navigation_links {
+  list-style: none;
+  display: flex;
+  gap: 62px;
+  margin-left: 183px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: "Orbitron";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.navigation__ink_active {
+  text-decoration: none;
+  color: white;
+  font-family: "Orbitron";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fac422;
+}
+
+.link:hover {
+  color: #fac422;
+}
