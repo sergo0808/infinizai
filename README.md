@@ -1,3 +1,5 @@
+# Работа выполнина под разрешение 1440px. Адаптив не применялся т.к. в условии это не указано.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
