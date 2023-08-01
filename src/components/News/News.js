@@ -9,7 +9,7 @@ import headphones from "../Image/headphones.jpg";
 
 const News = () => {
   return (
-    <section className={NewsStyle.news}>
+    <article className={NewsStyle.news}>
       <div className={NewsStyle.group_acrticle}>
         <figure className={NewsStyle.promo}>
           <img src={fire} alt="fire" />
@@ -22,34 +22,44 @@ const News = () => {
         <ul className={NewsStyle.grid_container}>
           <li className={NewsStyle.big_container}>
             <img src={controlle} alt="controlle" />
-            <p className={NewsStyle.text_data_big}>April 2, 2021</p>
+            <time className={NewsStyle.text_data_big} dateTime="2021-04-02">
+              April 2, 2021
+            </time>
             <p className={NewsStyle.text_title_big}>
               Esports Group teams up with the Indianapolis Colts
             </p>
           </li>
           <li className={NewsStyle.small_conteiner}>
             <img src={plaer} alt="plaer" className={NewsStyle.image} />
-            <p className={NewsStyle.text_data}>April 2, 2021</p>
+            <time className={NewsStyle.text_data} dateTime="2021-04-02">
+              April 2, 2021
+            </time>
             <p className={NewsStyle.text_title}>NAVI reveals s1mple fifth anniversary</p>
           </li>
           <li className={NewsStyle.small_conteiner}>
             <img src={alesports} alt="alesports" className={NewsStyle.image} />
-            <p className={NewsStyle.text_data}>April 2, 2021</p>
+            <time className={NewsStyle.text_data} dateTime="2021-04-02">
+              April 2, 2021
+            </time>
             <p className={NewsStyle.text_title}>A1esports Shares new picture</p>
           </li>
           <li className={NewsStyle.small_conteiner}>
             <img src={keybord} alt="keybord" className={NewsStyle.image} />
-            <p className={NewsStyle.text_data}>April 2, 2021</p>
+            <time className={NewsStyle.text_data} dateTime="2021-04-02">
+              April 2, 2021
+            </time>
             <p className={NewsStyle.text_title}>T1 unveil partnership with Razer</p>
           </li>
           <li className={NewsStyle.small_conteiner}>
             <img src={headphones} alt="headphones" className={NewsStyle.image} />
-            <p className={NewsStyle.text_data}>April 2, 2021</p>
+            <time className={NewsStyle.text_data} dateTime="2021-04-02">
+              April 2, 2021
+            </time>
             <p className={NewsStyle.text_title}>RX secures content partnership with</p>
           </li>
         </ul>
       </div>
-    </section>
+    </article>
   );
 };
 
