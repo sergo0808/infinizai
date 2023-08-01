@@ -105,6 +105,5 @@
 .img_solders {
   height: 518px;
   width: 660px;
-  margin-top: 22px;
-  opacity: 10px;
+  background-image: url("../Image/solders.jpg");
 }

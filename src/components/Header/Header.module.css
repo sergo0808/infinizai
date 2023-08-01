@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
   padding-left: 50px;
   padding-right: 50px;

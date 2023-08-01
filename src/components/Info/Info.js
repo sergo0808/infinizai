@@ -28,7 +28,7 @@ const Info = () => {
             <button className={InfoStyles.button_view}>View our team</button>
           </div>
         </div>
-        <img src={solders} alt="plaer" className={InfoStyles.img_solders} />
+        <div className={InfoStyles.img_solders}></div>
       </div>
     </section>
   );
